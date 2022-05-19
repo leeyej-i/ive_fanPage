@@ -1,10 +1,10 @@
 import React from "react";
-
+import mainImg from "../src_assets/IVE_ELEVEN.jpg"
 const Main = (props) => {
     return (
         <section className="main" id="main">
             <div className="jb-box">
-                <img src="./img/IVE_ELEVEN.jpg" />
+                <img src={mainImg} />
             </div>
         </section>
     );

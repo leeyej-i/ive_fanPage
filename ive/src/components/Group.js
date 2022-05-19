@@ -1,6 +1,12 @@
 import React from "react";
 import Member from "./Member.js";
 import useScrollFadeIn from "../hooks/useScrollFadeIn.js";
+import yujin from "../src_assets/yujin.jpg"
+import gaeul from "../src_assets/gaeul.jpg"
+import rei from "../src_assets/rei.jpg"
+import wonyoung from "../src_assets/wonyoung.jpg"
+import liz from "../src_assets/liz.jpg"
+import leeseo from "../src_assets/leeseo.jpg"
 
 const Group = (props) => {
     const animatedItem = useScrollFadeIn();
@@ -10,12 +16,12 @@ const Group = (props) => {
                 <h1 className="subtitle">MEMBER</h1>
                 <div {...animatedItem} >
                     <div className="group">
-                        <img className="member" src="./img/yujin.jpg" />
-                        <img className="member" src="./img/gaeul.jpg" />
-                        <img className="member" src="./img/rei.jpg" />
-                        <img className="member" src="./img/wonyoung.jpg" />
-                        <img className="member" src="./img/liz.jpg" />
-                        <img className="member" src="./img/leeseo.jpg" />
+                        <img className="member" src={yujin} />
+                        <img className="member" src={gaeul} />
+                        <img className="member" src={rei} />
+                        <img className="member" src={wonyoung} />
+                        <img className="member" src={liz} />
+                        <img className="member" src={leeseo} />
                     </div>
                     <div className="info">
                         <h3>YUJIN</h3>
