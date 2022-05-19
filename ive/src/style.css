@@ -4,6 +4,8 @@
 
 body {
     margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
     color: #3f464d;
     background-color: #f58989;
     font-family: "Spoqa Han Sans Neo", "Sans-serif";
